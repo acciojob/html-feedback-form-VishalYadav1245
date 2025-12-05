@@ -1,16 +1,19 @@
-<!DOCTYPE html>
+<h1>Feedback Form</h1>
 
-<html>
+<form method="post">
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    <label for="name">Name</label>
+    <input id="name" type="text" minlength="3" maxlength="50" required>
 
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <label for="portfolio">Portfolio</label>
+    <input id="portfolio" type="url" required>
 
-</body>
+    <label for="favColor">Favorite Color</label>
+    <input id="favColor" type="color">
 
-</html>
+    <label for="likeness">Likeness</label>
+    <input id="likeness" type="range" min="1" max="100">
+
+    <button type="submit">Submit</button>
+
+</form>
